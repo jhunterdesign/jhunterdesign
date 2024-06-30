@@ -2,7 +2,7 @@
 <a href="https://linkedin.com/in/jermaine-hunter"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
-I'm a dedicated and passionate UX Designer pivoting into the exciting world of cybersecurity. With a strong foundation in user experience design and a recently earned Google UX Designer Professional Certificate, I'm now focusing on applying my analytical and problem-solving skills to cybersecurity.
+I'm a dedicated and passionate UX Designer pivoting into the exciting world of cybersecurity. With a strong foundation in user experience design and a recently earned Google Cybersecurity Professional Certificate, I'm now focusing on applying my analytical and problem-solving skills to cybersecurity.
 
 I am currently seeking an entry-level Security Operations Center (SOC) position where I can leverage my design thinking and user-centered approach to enhance security measures and contribute to a safer digital environment.
 
