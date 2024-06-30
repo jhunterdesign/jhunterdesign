@@ -1,5 +1,5 @@
 # Hello, I'm Jermaine Hunter 👋🏾
-<a href="https://linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://linkedin.com/in/jermaine-hunter"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 
 I'm a dedicated and passionate UX Designer pivoting into the exciting world of cybersecurity. With a strong foundation in user experience design and a recently earned Google UX Designer Professional Certificate, I'm now focusing on applying my analytical and problem-solving skills to cybersecurity.
