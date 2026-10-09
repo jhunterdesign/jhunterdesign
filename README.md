@@ -1,130 +1,58 @@
 # Jermaine Hunter 👋🏾  
-### Cloud & AI Security Engineer | Detection Engineering | Design → Deploy → Defend
+### Identity-First Detection Engineering | Cloud & AI Security
+**Design → Deploy → Defend**
 
 <a href="https://linkedin.com/in/jermaine-hunter">
   <img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 <a href="https://www.huntercloudsec.dev/">
-  <img src="https://img.shields.io/badge/-HunterCloudSec-111827?&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-HunterCloudSec.dev-111827?&style=for-the-badge&logo=googlecloud&logoColor=white" />
 </a>
 
 ---
 
-## About Me
+## ⚡ Telemetry & Detection Pipeline
 
-I’m a Cloud & AI Security Engineer with a background in UX design and systems thinking.  
-I build security projects that don’t just detect threats — they explain them.
+```mermaid
+flowchart LR
+    %% Subgraphs
+    subgraph T [Inbound Telemetry]
+        direction TB
+        t1[Cloud Audit Logs]
+        t2[IAM & Identity Provider]
+        t3[LLM & AI Workloads]
+        t4[Application & Honeypot]
+    end
 
-My work focuses on:
+    subgraph D [Ingestion & Normalization]
+        direction TB
+        d1[Canonical Schema Parsing]
+        d2[Actor • Action • Target]
+        d3[Outcome • Context]
+    end
 
-- Identity-First Detection Engineering  
-- Canonical Event Telemetry (Actor • Action • Target • Outcome • Context)  
-- AI Security & Prompt Injection Defense  
-- Cloud-native threat modeling (GCP & Azure)  
-- Secure-by-design architecture  
+    subgraph E [Threat Detection Engine]
+        direction TB
+        e1[Sigma Rule Matching]
+        e2[MITRE ATT&CK Mapping]
+        e3[Chronicle / Splunk Analytics]
+    end
 
-All projects live under **HunterCloudSec — Design • Deploy • Defend**.
+    subgraph P [Playbooks & Response]
+        direction TB
+        p1[Automated Runbooks]
+        p2[Alert Scoring & Triage]
+        p3[Incident Remediation]
+    end
 
-Explore the full portfolio:  
-👉 https://www.huntercloudsec.dev/
+    %% Pipeline Flow
+    T --> D
+    D --> E
+    E --> P
 
----
+    %% Styling
+    classDef box fill:#161b22,stroke:#30363d,stroke-width:1px,color:#c9d1d9,font-size:12px;
+    classDef category fill:#0d1117,stroke:#58a6ff,stroke-width:1.5px,color:#58a6ff,font-weight:bold;
 
-## What You’ll Find on This GitHub
-
-This is not a random code dump.
-
-Each repository maps to a structured case study:
-
-### 🔥 Big’s BBQ & Smokehouse  
-Detection engineering honeypot simulating web abuse patterns and telemetry gaps.
-
-### 🏥 Glenville Health Systems (coming soon)  
-Healthcare identity-first detection architecture with canonical event modeling.
-
-### 🏦 Strata III (Fintech Security)  
-Cloud container hardening & financial application threat modeling.
-
-### 🤖 AI Security Projects  
-Prompt injection defense experiments, RAG hardening labs, and adversarial testing frameworks.
-
-Every project follows a structured methodology:
-
-1. Threat Model & Scope  
-2. Architecture & Telemetry Design  
-3. Canonical Event Schema  
-4. Detection Logic  
-5. Deployment & Evidence  
-6. Lessons Learned  
-
----
-
-## Technical Focus
-
-### ☁️ Cloud
-- Google Cloud Platform (IAM, Logging, SCC)
-- Azure (Sentinel, Logic Apps)
-- Containerized architectures
-
-### 🔍 Detection & Monitoring
-- Splunk
-- Chronicle Security Operations
-- Rule-based detection engineering
-- Behavioral telemetry modeling
-
-### 🧠 AI Security
-- RAG architecture hardening
-- Prompt injection analysis
-- LLM pipeline normalization
-- AI threat modeling
-
-### 💻 Development
-- Python
-- JavaScript
-- Flask
-- HTML/CSS
-- REST APIs
-- Secure application design principles
-
----
-
-## Certifications
-
-<img src="https://img.shields.io/badge/-Google%20Cloud%20Security%20Professional-4285F4?&style=for-the-badge&logo=GoogleCloud&logoColor=white" />
-<img src="https://img.shields.io/badge/-Google%20Cybersecurity%20Professional-007ACC?&style=for-the-badge&logo=Google&logoColor=white" />
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-
----
-
-## Current Direction
-
-I am pursuing roles in:
-
-- Cloud Security Engineering  
-- Detection Engineering  
-- AI Security Engineering  
-- Attack Surface Management  
-- Application Security  
-
-My edge is the combination of:
-
-Design Thinking + Security Engineering + AI Risk Awareness.
-
----
-
-## Philosophy
-
-Security should not be an afterthought.
-
-It should be:
-
-Designed intentionally.  
-Deployed thoughtfully.  
-Defended continuously.
-
-**Design → Deploy → Defend**
-
----
-
-If you're a hiring manager or engineer reviewing this profile, start with the case studies.  
-Each repository is built to demonstrate applied thinking — not just tool familiarity.
+    class t1,t2,t3,t4,d1,d2,d3,e1,e2,e3,p1,p2,p3 box;
+    class T,D,E,P category;
