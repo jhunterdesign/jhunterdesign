@@ -5,9 +5,6 @@
 <a href="https://linkedin.com/in/jermaine-hunter">
   <img src="https://img.shields.io/badge/-LinkedIn-0072B1?&style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://www.huntercloudsec.dev/">
-  <img src="https://img.shields.io/badge/-HunterCloudSec.dev-111827?&style=for-the-badge&logo=googlecloud&logoColor=white" />
-</a>
 
 ---
 
