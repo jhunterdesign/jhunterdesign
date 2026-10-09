@@ -12,47 +12,53 @@
 
 ```mermaid
 flowchart LR
-    %% Subgraphs
-    subgraph T [Inbound Telemetry]
+    subgraph T["01 · Telemetry Sources"]
         direction TB
-        t1[Cloud Audit Logs]
-        t2[IAM & Identity Provider]
-        t3[LLM & AI Workloads]
-        t4[Application & Honeypot]
+        T1["Cloud Audit Logs"]
+        T2["IAM & Identity Events"]
+        T3["LLM & AI Workloads"]
+        T4["Application & Honeypot Logs"]
     end
 
-    subgraph D [Ingestion & Normalization]
+    subgraph N["02 · Normalize & Enrich"]
         direction TB
-        d1[Canonical Schema Parsing]
-        d2[Actor • Action • Target]
-        d3[Outcome • Context]
+        N1["Parse & Validate Events"]
+        N2["Normalize Actor · Action · Target"]
+        N3["Enrich Context & Outcomes"]
     end
 
-    subgraph E [Threat Detection Engine]
+    subgraph D["03 · Detection & Analysis"]
         direction TB
-        e1[Sigma Rule Matching]
-        e2[MITRE ATT&CK Mapping]
-        e3[Chronicle / Splunk Analytics]
+        D1["Sigma / Custom Detection Rules"]
+        D2["MITRE ATT&CK Mapping"]
+        D3["Behavioral Analysis & Correlation"]
     end
 
-    subgraph P [Playbooks & Response]
+    subgraph R["04 · Triage & Response"]
         direction TB
-        p1[Automated Runbooks]
-        p2[Alert Scoring & Triage]
-        p3[Incident Remediation]
+        R1["Alert Prioritization"]
+        R2["Investigation & Evidence"]
+        R3["Response Playbooks"]
     end
 
-    %% Pipeline Flow
-    T --> D
-    D --> E
-    E --> P
+    T --> N
+    N --> D
+    D --> R
 
-    %% Styling
-    classDef box fill:#161b22,stroke:#30363d,stroke-width:1px,color:#c9d1d9,font-size:12px;
-    classDef category fill:#0d1117,stroke:#58a6ff,stroke-width:1.5px,color:#58a6ff,font-weight:bold;
+    classDef source fill:#161b22,stroke:#58a6ff,color:#c9d1d9,stroke-width:1px;
+    classDef process fill:#161b22,stroke:#3fb950,color:#c9d1d9,stroke-width:1px;
+    classDef detect fill:#161b22,stroke:#d29922,color:#c9d1d9,stroke-width:1px;
+    classDef respond fill:#161b22,stroke:#bc8cff,color:#c9d1d9,stroke-width:1px;
 
-    class t1,t2,t3,t4,d1,d2,d3,e1,e2,e3,p1,p2,p3 box;
-    class T,D,E,P category;
+    class T1,T2,T3,T4 source;
+    class N1,N2,N3 process;
+    class D1,D2,D3 detect;
+    class R1,R2,R3 respond;
+
+    style T fill:#0d1117,stroke:#58a6ff,stroke-width:1px,color:#58a6ff
+    style N fill:#0d1117,stroke:#3fb950,stroke-width:1px,color:#3fb950
+    style D fill:#0d1117,stroke:#d29922,stroke-width:1px,color:#d29922
+    style R fill:#0d1117,stroke:#bc8cff,stroke-width:1px,color:#bc8cff;
 ```
 
 ---
