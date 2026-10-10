@@ -65,7 +65,7 @@ flowchart LR
 
 ## 🛠️ Core Competencies
 
-| 🔍 Security Fundamentals & Frameworks | Python & Security Tool Development | ⚙️ Programming & Automation | 🛡️ Defensive Engineering |
+| 🛡️ Security Fundamentals & Frameworks | </> Python & Security Tool Development | ☁️ Cloud Security & Investigation | 🤖 AI Application Security |
 | :--- | :--- | :--- | :--- |
 | • CompTIA Security+ certified<br>• OWASP Top 10 for LLM Applications<br>• Sigma Rules<br>• MITRE ATT&CK Mapping<br>• KQL / YARA-L | • Python CLI development<br>• Security data parsing and validation<br>• Canonical Event Modeling<br>• JSON/YAML schema-driven workflows | • Python (Defensive CLI & Scripting)<br>• Bash / Linux Administration<br>• CI/CD & SAST Workflows<br>• JSON / YAML Schemas<br>• REST APIs & Webhooks | • Incident Response Playbooks<br>• Web Abuse Honeypots<br>• Threat Modeling & Runbooks<br>• LLM / Prompt Injection Defense |
 
