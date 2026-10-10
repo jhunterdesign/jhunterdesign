@@ -100,7 +100,7 @@ Each repository follows an applied engineering lifecycle: **Threat Scenario → 
 ## 📜 Certifications
 
 - [**CompTIA Security+ Certified**](https://www.credly.com/badges/bb94f262-ffcc-4fb4-bcd9-7debb52cdad1/public_url) · July 2026
-- Google Cloud Security Professional Certification
+- [**Google Cloud Cybersecurity Certificate**](https://www.credly.com/badges/e931de91-1eac-48d3-a252-35bfb2da0517/public_url)
 - Google Cybersecurity Professional Certification
 
 
