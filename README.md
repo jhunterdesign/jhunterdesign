@@ -65,9 +65,9 @@ flowchart LR
 
 ## 🛠️ Core Competencies
 
-| 🔍 Detection & SIEM | ☁️ Cloud & Identity Security | ⚙️ Programming & Automation | 🛡️ Defensive Engineering |
+| 🔍 Security Fundamentals & Frameworks | ☁️ Cloud & Identity Security | ⚙️ Programming & Automation | 🛡️ Defensive Engineering |
 | :--- | :--- | :--- | :--- |
-| • Chronicle SecOps<br>• Splunk Core / ES<br>• Sigma Rules<br>• MITRE ATT&CK Mapping<br>• KQL / YARA-L | • Google Cloud (IAM, Audit Logs, SCC)<br>• Microsoft Azure & Sentinel<br>• Canonical Event Modeling<br>• Zero Trust Architecture | • Python (Defensive CLI & Scripting)<br>• Bash / Linux Administration<br>• CI/CD & SAST Workflows<br>• JSON / YAML Schemas<br>• REST APIs & Webhooks | • Incident Response Playbooks<br>• Web Abuse Honeypots<br>• Threat Modeling & Runbooks<br>• LLM / Prompt Injection Defense |
+| • CompTIA Security+ certified<br>• OWASP Top 10 for LLM Applications<br>• Sigma Rules<br>• MITRE ATT&CK Mapping<br>• KQL / YARA-L | • Google Cloud (IAM, Audit Logs, SCC)<br>• Microsoft Azure & Sentinel<br>• Canonical Event Modeling<br>• Zero Trust Architecture | • Python (Defensive CLI & Scripting)<br>• Bash / Linux Administration<br>• CI/CD & SAST Workflows<br>• JSON / YAML Schemas<br>• REST APIs & Webhooks | • Incident Response Playbooks<br>• Web Abuse Honeypots<br>• Threat Modeling & Runbooks<br>• LLM / Prompt Injection Defense |
 
 ---
 
