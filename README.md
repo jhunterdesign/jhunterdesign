@@ -101,6 +101,8 @@ Each repository follows an applied engineering lifecycle: **Threat Scenario → 
 
 <img src="[https://img.shields.io/badge/-Google%20Cloud%20Security%20Professional-4285F4?&style=for-the-badge&logo=GoogleCloud&logoColor=white](https://img.shields.io/badge/-Google%20Cloud%20Security%20Professional-4285F4?&style=for-the-badge&logo=GoogleCloud&logoColor=white)" /> <img src="[https://img.shields.io/badge/-Google%20Cybersecurity%20Professional-007ACC?&style=for-the-badge&logo=Google&logoColor=white](https://img.shields.io/badge/-Google%20Cybersecurity%20Professional-007ACC?&style=for-the-badge&logo=Google&logoColor=white)" /> <img src="[https://img.shields.io/badge/-CompTIA%20Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white](https://img.shields.io/badge/-CompTIA%20Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)" />
 
+- CompTIA Security+ Certified - July 2026
+
 ---
 
 ## 🎯 Target Roles & Engineering Philosophy
