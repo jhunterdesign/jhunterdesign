@@ -99,15 +99,11 @@ Each repository follows an applied engineering lifecycle: **Threat Scenario → 
 
 ## 📜 Certifications
 
-<img src="[https://img.shields.io/badge/-Google%20Cloud%20Security%20Professional-4285F4?&style=for-the-badge&logo=GoogleCloud&logoColor=white](https://img.shields.io/badge/-Google%20Cloud%20Security%20Professional-4285F4?&style=for-the-badge&logo=GoogleCloud&logoColor=white)" /> <img src="[https://img.shields.io/badge/-Google%20Cybersecurity%20Professional-007ACC?&style=for-the-badge&logo=Google&logoColor=white](https://img.shields.io/badge/-Google%20Cybersecurity%20Professional-007ACC?&style=for-the-badge&logo=Google&logoColor=white)" /> <img src="[https://img.shields.io/badge/-CompTIA%20Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white](https://img.shields.io/badge/-CompTIA%20Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white)" />
-
-- CompTIA Security+ Certified - July 2026
+- [**CompTIA Security+ Certified**](https://www.credly.com/badges/bb94f262-ffcc-4fb4-bcd9-7debb52cdad1/public_url) · July 2026
 - Google Cloud Security Professional Certification
 - Google Cybersecurity Professional Certification
 
-### 🛡️ Certifications
 
-- [**CompTIA Security+ Certified**](YOUR_PUBLIC_CREDENTIAL_URL) · July 2026
 ---
 
 ## 🎯 Target Roles & Engineering Philosophy
